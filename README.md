@@ -70,6 +70,9 @@ src/
 -訂單資料儲存在 MySQL 資料庫中
 
 
+![image](https://github.com/user-attachments/assets/ebaebf45-1644-4911-bb23-b42f434b6355)
+
+
 
 # 5. 報表與匯出
 -支援將訂單匯出為 PDF 或 CSV 格式  

@@ -1,51 +1,52 @@
 # POS 及 庫存系統
 # 專案架構
-src/
-├── controller/
-│   ├── BackendUI.java
-│   ├── member/
+src/  
+├── controller/  
+│   ├── member/  
+│   │   ├── AddMemberErrorUI.java  
+│   │   ├── AddMemberSuccessUI.java  
 │   │   ├── AddMemberUI.java
-│   │   ├── LoginUI.java
-│   │   └── MemberManagerUI.java
-│   └── porder/
-│       ├── FinishUI.java
-│       ├── PaymentUI.java
-│       ├── PorderMainUI.java
-│       └── PorderManagerUI.java
+│   │   ├── LoginErrorUI.java
+│   │   ├── LoginSuccessUI.java
+│   │   └── LoginUI.java
+│   └── porder/  
+│       ├── AddPorderUI.java    
+│       ├── PorderMainUI.java  
+│       └── PorderManagerUI.java  
 │
-├── dao/
-│   ├── MemberDao.java
-│   ├── PorderDao.java
-│   ├── StockDao.java
-│   └── impl/
-│       ├── MemberDaoImpl.java
-│       ├── PorderDaoImpl.java
-│       └── StockDaoImpl.java
+├── dao/  
+│   ├── MemberDao.java  
+│   ├── PorderDao.java  
+│   ├── StockDao.java  
+│   └── impl/  
+│       ├── MemberDaoImpl.java  
+│       ├── PorderDaoImpl.java  
+│       └── StockDaoImpl.java  
 │
-├── model/
-│   ├── Member.java
-│   ├── Porder.java
-│   └── Stock.java
+├── model/  
+│   ├── Member.java  
+│   ├── Porder.java  
+│   └── Stock.java  
 │
-├── service/
-│   ├── MemberService.java
-│   ├── PorderService.java
-│   ├── StockService.java
-│   └── impl/
-│       ├── MemberServiceImpl.java
-│       ├── PorderServiceImpl.java
-│       └── StockServiceImpl.java
+├── service/  
+│   ├── MemberService.java  
+│   ├── PorderService.java  
+│   ├── StockService.java  
+│   └── impl/  
+│       ├── MemberServiceImpl.java  
+│       ├── PorderServiceImpl.java  
+│       └── StockServiceImpl.java  
 │
-└── util/
-    ├── ClockUtils.java        # 時鐘工具類
-    ├── DbConnection.java      # 資料庫連接工具
-    ├── JTableCenter.java      # 表格置中工具
-    ├── MarqueePanel.java      # 跑馬燈面板
-    ├── PasswordUtil.java      # 密碼處理工具
-    ├── PrintUtils.java        # 列印工具
-    ├── RegexUtil.java         # 正規表示法工具
-    ├── StockManager.java      # 庫存管理工具
-    ├── TextFieldUtil.java     # 文字輸入框工具
+└── util/  
+    ├── ClockUtils.java        # 時鐘工具類  
+    ├── DbConnection.java      # 資料庫連接工具  
+    ├── JTableCenter.java      # 表格置中工具  
+    ├── MarqueePanel.java      # 跑馬燈面板  
+    ├── PasswordUtil.java      # 密碼處理工具  
+    ├── PrintUtils.java        # 列印工具  
+    ├── RegexUtil.java         # 正規表示法工具  
+    ├── StockManager.java      # 庫存管理工具  
+    ├── TextFieldUtil.java     # 文字輸入框工具  
     └── Tool.java              # 通用工具類
 # 簡介
 -點擊圖片可選購咖啡種類及數量    

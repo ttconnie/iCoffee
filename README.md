@@ -69,7 +69,10 @@ src/
 # 4. 訂單管理
 
 -提供訂單的查詢、修改、刪除功能  
--訂單資料儲存在 MySQL 資料庫中  
+-訂單資料儲存在 MySQL 資料庫中
+
+![image](https://github.com/user-attachments/assets/de04ea05-7ed7-4bb9-8f6f-022a31aa2cde)
+
 # 5. 報表與匯出
 -支援將訂單匯出為 PDF 或 CSV 格式  
 -提供庫存報表功能，顯示當前庫存狀態  

@@ -5,10 +5,10 @@ src/
 │   ├── member/  
 │   │   ├── AddMemberErrorUI.java  
 │   │   ├── AddMemberSuccessUI.java  
-│   │   ├── AddMemberUI.java
-│   │   ├── LoginErrorUI.java
-│   │   ├── LoginSuccessUI.java
-│   │   └── LoginUI.java
+│   │   ├── AddMemberUI.java  
+│   │   ├── LoginErrorUI.java  
+│   │   ├── LoginSuccessUI.java  
+│   │   └── LoginUI.java  
 │   └── porder/  
 │       ├── AddPorderUI.java    
 │       ├── PorderMainUI.java  
@@ -16,38 +16,26 @@ src/
 │
 ├── dao/  
 │   ├── MemberDao.java  
-│   ├── PorderDao.java  
-│   ├── StockDao.java  
+│   ├── PorderDao.java   
 │   └── impl/  
 │       ├── MemberDaoImpl.java  
-│       ├── PorderDaoImpl.java  
-│       └── StockDaoImpl.java  
+│       └── PorderDaoImpl.java 
 │
 ├── model/  
-│   ├── Member.java  
-│   ├── Porder.java  
-│   └── Stock.java  
+│   ├── Member.java   
+│   └── Porder.java  
 │
 ├── service/  
 │   ├── MemberService.java  
-│   ├── PorderService.java  
-│   ├── StockService.java  
+│   ├── PorderService.java   
 │   └── impl/  
-│       ├── MemberServiceImpl.java  
-│       ├── PorderServiceImpl.java  
-│       └── StockServiceImpl.java  
+│       ├── MemberServiceImpl.java   
+│       └── PorderServiceImpl.java 
 │
-└── util/  
-    ├── ClockUtils.java        # 時鐘工具類  
-    ├── DbConnection.java      # 資料庫連接工具  
-    ├── JTableCenter.java      # 表格置中工具  
-    ├── MarqueePanel.java      # 跑馬燈面板  
-    ├── PasswordUtil.java      # 密碼處理工具  
-    ├── PrintUtils.java        # 列印工具  
-    ├── RegexUtil.java         # 正規表示法工具  
-    ├── StockManager.java      # 庫存管理工具  
-    ├── TextFieldUtil.java     # 文字輸入框工具  
-    └── Tool.java              # 通用工具類
+└── util/   
+    ├── DbConnection.java             
+    └── Tool.java        
+    
 # 簡介
 -點擊圖片可選購咖啡種類及數量    
 -交易完成送出後，會更新到資料庫    

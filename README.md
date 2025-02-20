@@ -13,25 +13,25 @@ src/
 │       ├── AddPorderUI.java    
 │       ├── PorderMainUI.java  
 │       └── PorderManagerUI.java  
-│
+│  
 ├── dao/  
 │   ├── MemberDao.java  
 │   ├── PorderDao.java   
 │   └── impl/  
 │       ├── MemberDaoImpl.java  
-│       └── PorderDaoImpl.java 
-│
+│       └── PorderDaoImpl.java   
+│  
 ├── model/  
 │   ├── Member.java   
 │   └── Porder.java  
-│
+│  
 ├── service/  
 │   ├── MemberService.java  
 │   ├── PorderService.java   
 │   └── impl/  
 │       ├── MemberServiceImpl.java   
-│       └── PorderServiceImpl.java 
-│
+│       └── PorderServiceImpl.java   
+│  
 └── util/   
     ├── DbConnection.java             
     └── Tool.java        
@@ -45,6 +45,9 @@ src/
 # 1. 點餐系統
 -提供飲料選擇功能，支援多種飲料品項  
 -自動計算總金額 
+
+![image](https://github.com/user-attachments/assets/0d2fd640-d00a-4812-9ada-469aca6e7d70)
+
   
 -提供結帳、修改訂單等功能  
 # 2. 庫存管理
@@ -52,7 +55,11 @@ src/
 -提供庫存表格顯示，方便查看當前庫存狀態  
 -支援從資料庫加載庫存數據，並在訂單完成後更新庫存  
 # 3. 會員管理
--提供會員資料的新增、查詢、修改、刪除功能  
+-提供會員資料的新增、查詢、修改、刪除功能
+
+![image](https://github.com/user-attachments/assets/799af172-5f9d-4151-8cbb-2c6e11ea717b)
+
+
  
 # 4. 訂單管理
 

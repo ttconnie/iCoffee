@@ -1,6 +1,6 @@
 
 # 系統架構
-**src/**  
+##src/##  
 ├── controller/  
 │   ├── member/  
 │   │   ├── AddMemberErrorUI.java  

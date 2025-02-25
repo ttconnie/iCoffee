@@ -45,11 +45,13 @@
 ![image](https://github.com/user-attachments/assets/0d2fd640-d00a-4812-9ada-469aca6e7d70)
 
 
+
   
 # 2. 會員(客戶)管理
 -提供會員資料的新增、查詢、修改、刪除功能
 
 ![image](https://github.com/user-attachments/assets/799af172-5f9d-4151-8cbb-2c6e11ea717b)
+
 
 
  
@@ -60,11 +62,13 @@
 
 
 
+
 # 4. 庫存資料管理
 -提供庫存數量，確保庫存狀態   
 -可從資料庫加載庫存數據，並在訂單完成後更新庫存 
 
 ![image](https://github.com/user-attachments/assets/9c4818df-28f0-424f-a85c-7aa6440efe68)
+
 
 
 
